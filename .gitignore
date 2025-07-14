@@ -1,0 +1,48 @@
+
+# Ignorar arquivos e pastas do sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignorar arquivos temporários
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.swn
+*.~*
+
+# Ignorar arquivos de backup do editor
+*~
+*.orig
+
+# Ignorar pastas do OneDrive
+**/OneDrive*/
+**/.OneDrive*/
+
+# Ignorar arquivos do VS Code
+.vscode/
+
+# Ignorar arquivos do sistema operacional
+ehthumbs.db
+Icon?
+._*
+
+# Ignorar arquivos de build do Jekyll (caso existam)
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ignorar arquivos de deploy temporários
+*.zip
+*.tar.gz
+
+# Ignorar arquivos Python (caso use scripts)
+__pycache__/
+*.py[cod]
+
+# Ignorar arquivos de configuração locais
+.env
+*.local
